@@ -22,6 +22,9 @@ export default class MainVC extends Component {
                     onPress={() => navigate('DetailVC', { title: '详情',des:'我是返回点击我' })} >
                     <Text>点击进详情页</Text>
                 </TouchableOpacity>
+
+
+
             </View>
         );
     }
